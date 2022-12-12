@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function SpecificWorkPage() {
   return (
-    <div>SpecificWorkPage</div>
+    <div className='container text-lg'>SpecificWorkPage</div>
   )
 }

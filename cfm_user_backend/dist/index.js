@@ -12,7 +12,7 @@ mongoose.connect(process.env.DATABASE, {
     dbName: 'CFM_DATA',
 }).then(() => {
     console.log("Database Connected");
-}).catch(err => {
+}).catch((err) => {
     console.log(err);
     console.log("Database not connected");
 });
